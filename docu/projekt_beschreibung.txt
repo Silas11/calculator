@@ -1,0 +1,35 @@
+Taschenrechner App
+
+UI
+- Input (type text) > eingbe der zahlen
+- buttons (nummernblock) > Inputs(type = button)
+- https://www.w3schools.com/html/html_form_input_types.asp
+
+Script
+- Funktionen für: Berechnungen
+- Addition: Wert saus der Box zwischenspeichern, dann mit neuem Wert wieder Addieren
+
+Style 
+- CSS
+
+
+
+
+Notizen:
+CSS:
+- Punkt (.) davor steht für eine Klasse, Raute (#) für eine bestimmte id
+        .nbtn{
+        color: rgb(255, 0, 119);
+        }
+
+- 'Relevanz' : Tag < Klasse < id
+        p{ color: red; background-color: blue }
+        #p1{ color: white; }
+        > Alle Paragraphen haben rote Schrift & einen blauen Hintergund, außer der Paragraph mit der id = p1 welcher eine weiße Schriftfarbe hat
+
+- Klassen kann man auch bei unterschiedlichen Tags setzen
+        <h1 class="p1">eigener Text</h1>
+        <br>
+        <p class="p1">anderer Text</p>
+
+        
